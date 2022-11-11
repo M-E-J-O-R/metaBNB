@@ -1,0 +1,45 @@
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+.footer_wrapper {
+  font-family: "Red Rose", cursive;
+  color: white;
+  padding: 2rem 6.25rem;
+  background: #1d1d1e;
+  display: flex;
+  gap: 11.6875rem;
+}
+.footer_child_one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+  .socials {
+    display: flex;
+    gap: 2.5rem;
+    .social_icon{
+        width: 18px;;
+        height:18px;
+    }
+  }
+}
+.footer_child_two {
+  @include flex();
+  gap: 13.5625rem;
+  .footer__nav {   
+    display: flex;
+    flex-direction: column;    
+    line-height: 35px;
+    .footer__nav-head {
+        margin-bottom: 1.5rem;
+        font-weight: 700;
+        line-height: 24px;
+      }
+    a {
+      font-size: 0.875rem;     
+      text-decoration: none;
+      color: #f1f3f9;     
+    }
+  }
+}

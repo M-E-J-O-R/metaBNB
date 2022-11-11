@@ -1,0 +1,43 @@
+.footer_wrapper {
+  font-family: "Red Rose", cursive;
+  color: white;
+  padding: 2rem 6.25rem;
+  background: #1d1d1e;
+  display: flex;
+  gap: 11.6875rem;
+}
+
+.footer_child_one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer_child_one .socials {
+  display: flex;
+  gap: 2.5rem;
+}
+.footer_child_one .socials .social_icon {
+  width: 18px;
+  height: 18px;
+}
+
+.footer_child_two {
+  display: flex;
+  align-items: center;
+  gap: 13.5625rem;
+}
+.footer_child_two .footer__nav {
+  display: flex;
+  flex-direction: column;
+  line-height: 35px;
+}
+.footer_child_two .footer__nav .footer__nav-head {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  line-height: 24px;
+}
+.footer_child_two .footer__nav a {
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: #f1f3f9;
+}/*# sourceMappingURL=footer.css.map */
