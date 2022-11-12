@@ -14,32 +14,34 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
- 
+
   .socials {
     display: flex;
     gap: 2.5rem;
-    .social_icon{
-        width: 18px;;
-        height:18px;
+    .social_icon {
+      width: 18px;
+      height: 18px;
+      color:white;
+      color:blue;     
     }
   }
 }
 .footer_child_two {
   @include flex();
   gap: 13.5625rem;
-  .footer__nav {   
+  .footer__nav {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     line-height: 35px;
     .footer__nav-head {
-        margin-bottom: 1.5rem;
-        font-weight: 700;
-        line-height: 24px;
-      }
+      margin-bottom: 1.5rem;
+      font-weight: 700;
+      line-height: 24px;
+    }
     a {
-      font-size: 0.875rem;     
+      font-size: 0.875rem;
       text-decoration: none;
-      color: #f1f3f9;     
+      color: #f1f3f9;
     }
   }
 }
