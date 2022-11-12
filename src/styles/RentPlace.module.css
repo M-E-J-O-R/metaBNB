@@ -1,0 +1,66 @@
+.rent_place_wrapper {
+  padding: 0 6.25rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.child_one {
+  width: 646px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.child_one_header {
+  font-size: 3.5rem;
+}
+
+.purple {
+  color: #a02279;
+}
+
+.search_box_container {
+  display: flex;
+}
+
+.search_box {
+  padding: 17px 15px;
+  width: 390px;
+  outline: none;
+  border: 1px solid #A3A3A3;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.search_btn {
+  padding: 17px 87px;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+  border: none;
+  color: white;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.child_two {
+  display: flex;
+  height: 450px;
+}
+
+.location_card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card_one {
+  align-self: flex-end;
+}
+
+.banner {
+  color: #F7F7F7;
+  display: flex;
+  margin-top: 4rem;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  padding: 10px 0;
+  justify-content: space-around;
+}/*# sourceMappingURL=RentPlace.module.css.map */

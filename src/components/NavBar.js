@@ -8,7 +8,6 @@ const NavBar = () => {
      
                 <nav className='nav-link-container'>
                     <Link>Home</Link>
-
                     <Link>Place to stay</Link>                 
                     <Link>NFTs</Link>
                     <Link>Community</Link>
