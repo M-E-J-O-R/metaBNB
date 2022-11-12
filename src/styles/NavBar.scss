@@ -1,0 +1,24 @@
+.nav-bar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 6.25rem;
+  align-items: center;
+  background-color: white;
+  #connect_wallet_btn {
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+    border-radius: 10px;
+    color: white;
+    padding: 15px 27px;
+    border: none;
+  }
+}
+.nav-link-container {
+  display: flex;
+  gap: 3rem;
+
+  a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #434343;
+  }
+}
