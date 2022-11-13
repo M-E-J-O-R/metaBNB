@@ -1,0 +1,45 @@
+{
+    "Home":[
+        {
+            "id":1,
+            "name":"Frame1.png",
+            "path":"..assest/Frame1.png"
+        },
+        {
+            "id":2,
+            "name":"Frame2.png",
+            "path":"..assest/Frame2.png"
+        },
+        {
+            "id":3,
+            "name":"Frame3.png",
+            "path":"../assest/Frame3.png"
+        },
+        {
+            "id":4,
+            "name":"Frame4.png",
+            "path":"..assest/Frame4.png"
+        },
+        {
+            "id":5,
+            "name":"Frame5.png",
+            "path":"..assest/Frame5.png"
+        },
+        {
+            "id":6,
+            "name":"Frame6.png",
+            "path":"..assest/Frame6.png"
+        },
+        {
+            "id":7,
+            "name":"Frame7.png",
+            "path":"..assest/Frame7.png"
+        },
+        {
+            "id":8,
+            "name":"Frame8.png",
+            "path":"..assest/Frame8.png"
+        }
+       
+    ]
+}
