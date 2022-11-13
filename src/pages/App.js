@@ -2,7 +2,7 @@ import ConnectWallet from "../components/ConnectWallet";
 import Footer from "../components/Footer";
 import LearnMore from "../components/LearnMore";
 import NavBar from "../components/NavBar";
-import NftCard from "../components/NftCard";
+import NftCard from "../components/HomeNftContainer";
 import RentPlace from "../components/RentPlace";
 import '../styles/app.css'
 
@@ -17,7 +17,7 @@ function App() {
       <div>
         {/* <NavBar /> */}
         {/* <RentPlace/> */}
-        <NftCard/>
+        <NftCard />
         {/* <ConnectWallet/> */}
         {/* <LearnMore />
         <Footer /> */}
