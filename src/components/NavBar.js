@@ -11,8 +11,8 @@ const NavBar = () => {
             <img src={metabnbIcon} alt="" />
      
                 <nav className='nav-link-container'>
-                    <Link>Home</Link>
-                    <Link>Place to stay</Link>                 
+                    <Link to={'/'}>Home</Link>
+                    <Link to={'/place_to_stay'}>Place to stay</Link>                 
                     <Link>NFTs</Link>
                     <Link>Community</Link>
                 </nav>

@@ -1,0 +1,15 @@
+.different_locations {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.different_locations .places_btn {
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border: 1px solid #b4b4b4;
+  border-radius: 8px;
+  width: 161px;
+  justify-content: space-between;
+}/*# sourceMappingURL=places.css.map */
