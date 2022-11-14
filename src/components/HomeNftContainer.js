@@ -9,37 +9,44 @@ const HomeNftContainer = () => {
 
     return (
         <>
-            <div className='home_nft_container'>
+            <div className='inspiration_container'>
 
 
-                {HomeImages.map((imgData, key) => {
-                    return (
-                        <div className="nft_card" key={key}>
-                            <section className='nft_image'
-                                style={{
-                                    backgroundImage: `url(${require(`../assests/${imgData.name}`)})`
-                                }}
-                            >
+                <p p className='inspiration'>
+                    <b> Inspiration for your next adventure</b>
+                </p>
+                <div className='home_nft_container'>
 
-                            </section>
-                            <section className='nft_info_container'>
-                                <div className='nft_info'>
-                                    <p>Desert king</p>
-                                    <p id='rent_price'> <b>IMBT per night</b></p>
-                                </div>
-                                <div className='nft_info'>
-                                    <p>2345km away</p>
-                                    <p>available for 2 weeks stay</p>
-                                </div>
-                                <StarRating />
 
-                            </section>
+                    {HomeImages.map((imgData, key) => {
+                        return (
+                            <div className="nft_card" key={key}>
+                                <section className='nft_image'
+                                    style={{
+                                        backgroundImage: `url(${require(`../assests/${imgData.name}`)})`
+                                    }}
+                                >
 
-                        </div>
+                                </section>
+                                <section className='nft_info_container'>
+                                    <div className='nft_info'>
+                                        <p>Desert king</p>
+                                        <p id='rent_price'> <b>IMBT per night</b></p>
+                                    </div>
+                                    <div className='nft_info'>
+                                        <p>2345km away</p>
+                                        <p>available for 2 weeks stay</p>
+                                    </div>
+                                    <StarRating />
 
-                    )
-                })}
+                                </section>
 
+                            </div>
+
+                        )
+                    })}
+
+                </div>
             </div>
         </>
     );

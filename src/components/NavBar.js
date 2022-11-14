@@ -1,7 +1,11 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import metabnbIcon from '../assests/metabnb-header.png'
 import '../styles/NavBar.css'
+import ConnectWallet from './ConnectWallet';
 const NavBar = () => {
+    const [walletModal,setWalletModal] = useState(false)
+    
     return (<>
         <div className='nav-bar-wrapper'>
             <img src={metabnbIcon} alt="" />
@@ -14,7 +18,11 @@ const NavBar = () => {
                 </nav>
 
            
-            <button id='connect_wallet_btn'>Connect wallet</button>
+            <button id='connect_wallet_btn' onClick={()=>setWalletModal(prev=>!prev)}>Connect wallet</button>
+           
+            <div className={`${walletModal?'wallet_modal':'hidden'}`}>
+                <ConnectWallet setWalletModal={ setWalletModal} />
+            </div> 
         </div>
     </>);
 }

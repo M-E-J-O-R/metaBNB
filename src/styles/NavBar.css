@@ -21,4 +21,13 @@
   text-decoration: none;
   font-size: 1.25rem;
   color: #434343;
+}
+
+.nav_state {
+  width: 100vw;
+  height: 100vh;
+  display: absolute;
+  background-color: rgba(67, 67, 67, 0.5);
+  -webkit-backdrop-filter: blur(8rem);
+          backdrop-filter: blur(8rem);
 }/*# sourceMappingURL=NavBar.css.map */

@@ -10,7 +10,7 @@
   width: 646px;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .child_one_header {

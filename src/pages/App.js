@@ -5,6 +5,8 @@ import NavBar from "../components/NavBar";
 import NftCard from "../components/HomeNftContainer";
 import RentPlace from "../components/RentPlace";
 import '../styles/app.css'
+import Home from "./Home";
+
 
 
 
@@ -14,11 +16,13 @@ function App() {
   return (
 
     <>
-      <div>
+      <div className="App">
+       
+        <Home/>
         {/* <NavBar /> */}
         {/* <RentPlace/> */}
-        <NftCard />
-        {/* <ConnectWallet/> */}
+        {/* <NftCard /> */}
+        
         {/* <LearnMore />
         <Footer /> */}
       </div>

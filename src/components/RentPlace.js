@@ -15,7 +15,7 @@ const RentPlace = () => {
                     <p className={`${styles.child_one_header}`}>
                         Rent a <span className={`${styles.purple}`} >Place</span>  away from <span className={`${styles.purple}`}>Home</span> in the <span className={`${styles.purple}`}>Metaverse</span>
                     </p>
-
+                    
                     <p>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
 
                     <section className={`${styles.search_box_container}`}>
@@ -31,6 +31,7 @@ const RentPlace = () => {
                         <img src={placeOne} alt="" />
                         <img src={placeTwo} alt="" />
                     </div>
+
                     <div className={`${styles.location_card} `}>
                         <img src={placeThree} alt="" />
                         <img src={placeFour} alt="" />
