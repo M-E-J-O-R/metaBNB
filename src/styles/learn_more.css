@@ -1,6 +1,9 @@
 .learn_more_wrapper {
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   padding: 6.25rem;
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
   font-family: "Red Rose", cursive;
   color: white;
   display: flex;
@@ -12,6 +15,7 @@
   border-radius: 8px;
   color: #a02279;
   border: none;
+  outline: none;
 }
 
 .learn_more_head {
@@ -23,6 +27,10 @@
 .learn_more_info {
   font-size: 1.125rem;
   line-height: 35px;
+  width: 415px;
   margin: 2rem 0 3rem 0;
-  outline: none;
+}
+
+.learn_more_child_two {
+  width: 704px;
 }/*# sourceMappingURL=learn_more.css.map */

@@ -20,9 +20,9 @@ const NavBar = () => {
            
             <button id='connect_wallet_btn' onClick={()=>setWalletModal(prev=>!prev)}>Connect wallet</button>
            
-            <div className={`${walletModal?'wallet_modal':'hidden'}`}>
+             <div className={`${walletModal?'wallet_modal':'hidden'}`}>
                 <ConnectWallet setWalletModal={ setWalletModal} />
-            </div> 
+            </div>  
         </div>
     </>);
 }

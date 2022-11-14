@@ -3,12 +3,16 @@
   padding: 0 6.25rem;
   background-color: white;
   display: flex;
+ 
+  max-width: 100vw;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
 }
 .child_one {
-  width: 646px;
+ max-width: 646px;
   display: flex;
+  
   flex-direction: column;
   gap: 3rem;
 }
@@ -39,7 +43,7 @@
 .child_two{
   display: flex;
   height: 450px;
-  
+  width: 476px;  
  
 }
 

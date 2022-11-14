@@ -5,6 +5,7 @@
 .footer_wrapper {
   font-family: "Red Rose", cursive;
   color: white;
+  max-width: 100vw;
   padding: 2rem 6.25rem;
   background: #1d1d1e;
   display: flex;
@@ -21,8 +22,8 @@
     .social_icon {
       width: 18px;
       height: 18px;
-      color:white;
-      color:blue;     
+      color: white;
+      color: blue;
     }
   }
 }

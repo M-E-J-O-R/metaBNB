@@ -1,8 +1,10 @@
 .inspiration_container {
   display: flex;
+  width: 100vw;
+  max-width: 100vw;
   flex-direction: column;
   align-items: center;
-  padding: 3.5rem 6.25rem;
+  padding: 3.5rem 0;
   gap: 3.5rem;
 }
 
