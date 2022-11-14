@@ -7,13 +7,7 @@ import { useState } from 'react'
 
 
 const ConnectWallet = ({setWalletModal}) => {
-    const [close, setClose] = useState(false)
-    const handleClose = () => {
-        setClose((prev)=>!prev)
-    }
-    // style={{
-    //     display: close?'none':'block'
-    // }} 
+   
     return (<>
         <div className="wallet_wrapper">
             <section className='wallet_header'>

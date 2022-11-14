@@ -11,14 +11,14 @@ const Home = () => {
                 <header>
                     <NavBar />
                 </header>
-                {/* <main>
+                <main>
                     <RentPlace />
                     <HomeNftContainer />
                     <LearnMore/>
                 </main>
                 <footer>
                     <Footer/>
-                </footer> */}
+                </footer>
 
             </div>
 
