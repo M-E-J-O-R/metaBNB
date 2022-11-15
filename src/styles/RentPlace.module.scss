@@ -111,7 +111,7 @@
     justify-content: center;
     gap: 3rem;
     width: 100%;
-    border: 1px solid red;
+   
 
     img{
       transition: all 1s linear;
@@ -138,5 +138,12 @@
     img{
       width: 35vw;
     }
+  }
+  .search_box{
+    height: 1.3rem;
+    width: 70%;
+  }
+  .search_btn{
+    padding: 0.5rem 1.5rem;
   }
 }
