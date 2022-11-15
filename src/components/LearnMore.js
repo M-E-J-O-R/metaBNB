@@ -15,7 +15,7 @@ const LearnMore = () => {
             </section>
 
             <section className="learn_more_child_two">
-                <img src={learn_more_img} alt="" />
+                <img className='learn_more_img' src={learn_more_img} alt="" />
 
             </section>
         </div>

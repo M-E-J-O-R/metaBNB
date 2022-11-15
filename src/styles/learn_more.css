@@ -3,7 +3,6 @@
   padding: 6.25rem;
   width: 100vw;
   max-width: 100vw;
-  overflow-x: hidden;
   font-family: "Red Rose", cursive;
   color: white;
   display: flex;
@@ -18,6 +17,10 @@
   outline: none;
 }
 
+.learn_more_child_one {
+  width: 50%;
+}
+
 .learn_more_head {
   font-weight: 700;
   font-size: 3rem;
@@ -27,10 +30,36 @@
 .learn_more_info {
   font-size: 1.125rem;
   line-height: 35px;
-  width: 415px;
+  width: 100%;
   margin: 2rem 0 3rem 0;
 }
 
 .learn_more_child_two {
   width: 704px;
+}
+
+@media screen and (max-width: 1200px) {
+  .learn_more_wrapper {
+    padding: 3rem 2rem;
+  }
+  .learn_more_child_two {
+    width: 50%;
+  }
+  .learn_more_child_two .learn_more_img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .learn_more_wrapper {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .learn_more_child_two, .learn_more_child_one {
+    width: 100%;
+  }
+  .learn_more_child_one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }/*# sourceMappingURL=learn_more.css.map */

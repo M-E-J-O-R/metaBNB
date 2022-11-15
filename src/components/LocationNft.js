@@ -10,6 +10,8 @@ const LocationNft = () => {
     return (
         <>
             <div className="places_container">
+
+                
                 <div className='location_wrapper'>
 
 
