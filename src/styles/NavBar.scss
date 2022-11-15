@@ -76,7 +76,8 @@
     width: 100vw;
     height: 100vh;
     position: fixed;
-    right: 0;
+    transition: all 0.5s linear;
+    right: -100vw;
     top: 0;
     width: 60%;
     justify-content: flex-start;
@@ -94,5 +95,13 @@
         border-bottom: 1px solid white;
       }
     }
+  }
+}
+@media screen and (max-width:450px) {
+ 
+  .mobile_displayer{
+    width: 2.5rem;
+    padding: 0.5rem;
+    height: 2.5rem;
   }
 }
