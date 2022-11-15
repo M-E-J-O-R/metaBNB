@@ -26,9 +26,10 @@
 }
 
 .footer_child_two {
+  width: 100%;
   display: flex;
   align-items: center;
-  gap: 13.5625rem;
+  justify-content: space-between;
 }
 .footer_child_two .footer__nav {
   display: flex;
@@ -50,11 +51,6 @@
   .footer_wrapper {
     gap: 2rem;
     padding: 2rem;
-  }
-  .footer_child_two {
-    width: 100%;
-    gap: 0;
-    justify-content: space-between;
   }
 }
 @media screen and (max-width: 750px) {

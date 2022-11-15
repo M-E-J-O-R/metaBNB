@@ -10,6 +10,7 @@ const RentPlace = () => {
     return (
         <>
             <div className={`${styles.rent_place_wrapper}`}>
+                
                 <section className={`${styles.child_one}`}>
 
                     <p className={`${styles.child_one_header}`}>
@@ -42,9 +43,9 @@ const RentPlace = () => {
 
             </div>
             <div className={`${styles.banner}`}>
-                <img src={mbTokenIcon} alt="" />
-                <img src={metamaskIcon} alt="" />
-                <img src={openseaIcon} alt="" />
+                <img  className={`${styles.banner_icon}`} src={mbTokenIcon} alt="" />
+                <img className={`${styles.banner_icon}`} src={metamaskIcon} alt="" />
+                <img className={`${styles.banner_icon}`} src={openseaIcon} alt="" />
             </div>
 
 

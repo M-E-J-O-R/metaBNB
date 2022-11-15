@@ -46,9 +46,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .places_container {
-    padding: 3rem 2rem;
-  }
   .location_wrapper {
     gap: 1rem;
   }
