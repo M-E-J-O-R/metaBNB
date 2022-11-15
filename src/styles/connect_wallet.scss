@@ -2,6 +2,8 @@
   width: 600px;
   background-color: white;
   border-radius: 16px;
+  position: relative;
+  margin: 0 auto;
 }
 .wallet_header {
   padding: 24px 32px;
@@ -40,10 +42,9 @@
   background-color: rgba(151, 151, 151, 0.6);
   backdrop-filter: blur(0.01rem);
   width: 100vw;
-  max-width: 100vw;
   height: 100vh;
   top: 0;
-  right: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,4 +52,17 @@
 }
 .hidden{
   display: none;
+}
+@media screen and (max-width:650px){
+  .wallet_wrapper{
+    width: 90vw;
+  }
+}
+@media screen and (max-width:480px) { 
+   .wallet_icon{
+    height: 1.5rem;
+   }
+   .wallet_header, .wallet_body{
+    padding: 1rem;
+   }
 }

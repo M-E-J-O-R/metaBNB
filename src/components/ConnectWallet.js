@@ -32,7 +32,7 @@ function WalletType  ({ walletIcon, walletName }){
     return (
         <section className='wallet_card'>
             <span id='wallet_card_head'>
-                <img src={walletIcon} alt={walletName} />
+                <img className='wallet_icon' src={walletIcon} alt={walletName} />
                 <p>{walletName}</p>
             </span>
 
