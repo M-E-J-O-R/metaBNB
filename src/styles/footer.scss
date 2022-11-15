@@ -46,3 +46,55 @@
     }
   }
 }
+@media screen and (max-width: 1200px) {
+  .footer_wrapper {
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .footer_child_two {
+    width: 100%;
+    gap: 0;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footer_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_child_one {
+    gap: 2rem;
+    align-items: center;
+    .metabnb_footer_icon {
+      width: 300px;
+    }
+
+    .socials {
+      display: flex;
+      gap: 5rem;
+
+      .social_icon {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer_child_one {
+    .metabnb_footer_icon {
+      width: 250px;
+    }
+  }
+  .footer_child_two {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .footer__nav {
+    align-items: center;
+    .footer__nav-head {
+      text-transform: uppercase;
+    }
+  }
+}
