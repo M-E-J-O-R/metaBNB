@@ -16,7 +16,7 @@ const RentPlace = () => {
                         Rent a <span className={`${styles.purple}`} >Place</span>  away from <span className={`${styles.purple}`}>Home</span> in the <span className={`${styles.purple}`}>Metaverse</span>
                     </p>
                     
-                    <p>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
+                    <p className={`${styles.child_one_info}`}>We provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
 
                     <section className={`${styles.search_box_container}`}>
                         <input className={`${styles.search_box}`} type="text" placeholder="Search for location" />

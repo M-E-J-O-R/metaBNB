@@ -2,44 +2,236 @@
     "Home":[
         {
             "id":1,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
             "name":"Frame1.png",
-            "path":"..assest/Frame1.png"
+            "path":"../assests/Frame1.png"
+
         },
         {
             "id":2,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
             "name":"Frame2.png",
-            "path":"..assest/Frame2.png"
+            "path":"../assests/Frame2.png"
+
         },
         {
             "id":3,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
             "name":"Frame3.png",
-            "path":"../assest/Frame3.png"
+            "path":"../assests/Frame3.png"
+
         },
         {
             "id":4,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
             "name":"Frame4.png",
-            "path":"..assest/Frame4.png"
+            "path":"../assests/Frame4.png"
+
         },
         {
             "id":5,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
             "name":"Frame5.png",
-            "path":"..assest/Frame5.png"
+            "path":"../assests/Frame5.png"
+
         },
         {
             "id":6,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
             "name":"Frame6.png",
-            "path":"..assest/Frame6.png"
+            "path":"../assests/Frame6.png"
+
         },
         {
             "id":7,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
             "name":"Frame7.png",
-            "path":"..assest/Frame7.png"
+            "path":"../assests/Frame7.png"
+
         },
         {
             "id":8,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
             "name":"Frame8.png",
-            "path":"..assest/Frame8.png"
+            "path":"../assests/Frame8.png"
+
         }
        
+    ],
+    "placesToStay":[
+        {
+            "id":1,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame5.png",
+            "path":"../assests/Frame5.png"
+
+        },
+        {
+            "id":2,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame6.png",
+            "path":"../assests/Frame6.png"
+
+        },
+        {
+            "id":3,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame7.png",
+            "path":"../assests/Frame7.png"
+
+        },
+        {
+            "id":4,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame8.png",
+            "path":"../assests/Frame8.png"
+
+        },
+        {
+            "id":5,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame1.png",
+            "path":"../assests/Frame1.png"
+
+        },
+        {
+            "id":6,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame2.png",
+            "path":"../assests/Frame3.png"
+
+        },
+        {
+            "id":7,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame3.png",
+            "path":"../assests/Frame3.png"
+        },
+        {
+            "id":8,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame4.png",
+            "path":"../assests/Frame4.png"
+        },
+        {
+            "id":9,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame9.png",
+            "path":"../assests/Frame9.png"
+        },
+        {
+            "id":10,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame10.png",
+            "path":"../assests/Frame10.png"
+        },
+        {
+            "id":11,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame11.png",
+            "path":"../assests/Frame11.png"
+        },
+       {
+            "id":12,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame12.png",
+            "path":"../assests/Frame12.png"
+        },
+       {
+            "id":13,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame13.png",
+            "path":"../assests/Frame13.png"
+        },
+       {
+            "id":14,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame14.png",
+            "path":"../assests/Frame14.png"
+        },
+       {
+            "id":15,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame15.png",
+            "path":"../assests/Frame15.png"
+        },
+       {
+            "id":16,
+            "title":"Desert king",
+            "price":"1MBT",
+            "distance":"2345km",
+            "availability":"2weeks",
+            "name":"Frame16.png",
+            "path":"../assests/Frame16.png"
+        }
     ]
 }

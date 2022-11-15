@@ -5,6 +5,7 @@
   justify-content: space-between;
   padding: 3rem 6.25rem;
   align-items: center;
+  overflow: hidden;
   background-color: white;
 }
 .nav-bar-wrapper #connect_wallet_btn {

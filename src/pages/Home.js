@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import RentPlace from '../components/RentPlace'
 import LearnMore from '../components/LearnMore';
-import ConnectWallet from '../components/ConnectWallet';
+
 const Home = () => {
     return (
         <>
@@ -14,7 +14,7 @@ const Home = () => {
                 <main>
                     <RentPlace />
                     <HomeNftContainer />
-                    <LearnMore/>
+                   <LearnMore/>
                 </main>
                 <footer>
                     <Footer/>

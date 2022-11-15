@@ -1,23 +1,25 @@
 import StarRating from "./StarRating";
+import '../styles/NftCard.css'
 
-const HomeNftContainer = () => {
+const NftCard = ({item}) => {
     return (<>
-        <div className="nft_card" >
+        <div className="nft_card"  >
             <section className='nft_image'
                 style={{
-                    backgroundImage: `url(${require(`../assests/${'image_name'}`)})`
+                   
+                    backgroundImage: `url(${require(`../assests/${item.name}`)})`
                 }}
             >
 
             </section>
             <section className='nft_info_container'>
                 <div className='nft_info'>
-                    <p>Desert king</p>
-                    <p id='rent_price'> <b>IMBT per night</b></p>
+                    <p>{item.title}</p>
+                    <p id='rent_price'> <b>{item.price} per night</b></p>
                 </div>
                 <div className='nft_info'>
-                    <p>2345km away</p>
-                    <p>available for 2 weeks stay</p>
+                    <p>{item.distance } away</p>
+                    <p>{ item.availability}</p>
                 </div>
                 <StarRating />
 
@@ -27,4 +29,4 @@ const HomeNftContainer = () => {
     </>);
 }
 
-export default HomeNftContainer;
+export default NftCard;
