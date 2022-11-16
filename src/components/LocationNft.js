@@ -6,12 +6,12 @@ import NftCard from './NftCard'
 
 let placesToStayNfts = data.placesToStay
 const LocationNft = () => {
-    console.log(placesToStayNfts)
+   
     return (
         <>
             <div className="places_container">
 
-                
+
                 <div className='location_wrapper'>
 
 
@@ -28,6 +28,7 @@ const LocationNft = () => {
                     </section>
 
                     <button className='places_btn'>Location <img src={locationIcon} alt="" /></button>
+
                 </div>
 
                 <div className='places_nft_container'>
